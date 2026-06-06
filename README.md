@@ -1,6 +1,21 @@
-# iPhone 17 (Vite + React + Tailwind)
+# Clone do iPhone 17 (Vite + React + Tailwind CSS)
 
-Projeto front-end feito com Vite + React e Tailwind CSS.
+Este projeto é uma recriação front-end do design e algumas funcionalidades da interface do iPhone 17, desenvolvido utilizando as modernas tecnologias Vite, React e Tailwind CSS.
+O objetivo é demonstrar a capacidade de replicar interfaces de usuário complexas e responsivas com foco em performance e estilização eficiente.
+
+
+## Tecnologias
+
+*   **Vite:** Um empacotador de módulos de próxima geração para desenvolvimento web front-end.
+*   **React:** Uma biblioteca JavaScript para construir interfaces de usuário.
+*   **Tailwind CSS:** Um framework CSS utilitário para estilização rápida e responsiva.
+
+*   ## Funcionalidades
+
+*   Interface de usuário responsiva, adaptável a diferentes tamanhos de tela.
+*   Navegação e componentes visuais inspirados no iOS.
+*   (Adicione aqui outras funcionalidades específicas que seu clone implementa, como animações, interações, etc.)
+
 
 ## Preview
 
@@ -21,23 +36,24 @@ Projeto front-end feito com Vite + React e Tailwind CSS.
 - npm: 9+ (recomendado usar npm neste repositório por causa do `package-lock.json`)
 
 
-## Como rodar localmente
+## Como Rodar Localmente
 
-Instalar dependências:
+Para configurar e executar este projeto em sua máquina local, siga os passos abaixo:
 
-```bash
-npm ci
-```
-
-Rodar em modo desenvolvimento:
-
-```bash
-npm run dev
-```
-
-Abrir o endereço que o terminal mostrar (normalmente `http://localhost:5173`).
-
-
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/letotecdev/clone_iphone17.git
+    cd clone_iphone17
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm ci
+    ```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+4.  Abra seu navegador e acesse o endereço indicado no terminal (geralmente `http://localhost:5173` ).
 ## Estrutura de pastas
 
 - `src/main.jsx`: ponto de entrada (monta o React no DOM)
